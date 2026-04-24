@@ -209,7 +209,7 @@ class RAGPipeline:
             model= os.getenv("Hugging_face_model"),
             max_tokens=512,
         )
-        answer = response.choices[0].message.content.strip()
+        answer = response.choices[0].message.content
 
         if verbose:
             print(f"[ANSWER] {answer}")
