@@ -1,0 +1,10 @@
+
+Our refund policy allows full refunds within 30 days of purchase.
+After 30 days refunds are evaluated case by case by our support team.
+Contact support@example.com with your order ID to initiate a refund.
+Premium subscribers get priority support with 4 hour response time.
+Standard users receive responses within 24 to 48 business hours.
+Account cancellations can be done through account settings.
+Data is retained for 90 days after cancellation then permanently deleted.
+Our SLA guarantees 99.9 percent uptime for all paid plans.
+Downtime beyond SLA threshold results in service credits of 10x the downtime.

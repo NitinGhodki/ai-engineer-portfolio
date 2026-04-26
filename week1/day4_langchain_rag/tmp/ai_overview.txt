@@ -1,0 +1,11 @@
+
+Artificial intelligence refers to the simulation of human intelligence in machines.
+Machine learning is a subset of AI that learns from data without explicit programming.
+Deep learning uses neural networks with many layers to process complex patterns.
+Large language models like GPT-4 and Claude are trained on massive text datasets.
+They learn to predict the next token and develop broad language understanding.
+Retrieval Augmented Generation combines LLMs with external knowledge bases.
+RAG retrieves relevant documents and injects them as context into the LLM prompt.
+Vector databases store embeddings and support semantic similarity search.
+Embeddings are dense numerical representations of text meaning.
+Cosine similarity measures how close two embedding vectors are in meaning.
