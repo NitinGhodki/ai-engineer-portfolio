@@ -53,7 +53,7 @@ class MultiDocRAG:
         self._collection = self._chroma.get_or_create_collection(
             "multi_doc", embedding_function=embed_fn
         )
-        self._llm = InferenceClient(token=os.getenv("HUGGING_FACE_API"))
+        self._llm = InferenceClient(token=os.getenv("HF_API_KEY"))
         self._model = os.getenv("Hugging_face_model")
 
     def ingest_all(self):

@@ -9,7 +9,7 @@ load_dotenv()
 
 class AsyncLLMClient:
     def __init__(self, system_prompt: str = None):
-        self._api_key = os.getenv("HUGGING_FACE_API")
+        self._api_key = os.getenv("HF_API_KEY")
         self.system_prompt = system_prompt
         self._client = AsyncInferenceClient(token=self._api_key)
         self._model = "Qwen/Qwen2.5-7B-Instruct"

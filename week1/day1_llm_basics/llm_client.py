@@ -7,7 +7,7 @@ load_dotenv()
 
 class LLMClient:
     def __init__(self, system_prompt: str = None):
-        self._api_key = os.getenv("HUGGING_FACE_API")
+        self._api_key = os.getenv("HF_API_KEY")
         self._system_prompt = system_prompt
         self._client = InferenceClient(token=self._api_key)
 

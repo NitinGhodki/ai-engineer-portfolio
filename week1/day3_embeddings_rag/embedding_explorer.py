@@ -163,7 +163,7 @@ def demo_vector_arithmetic(client: InferenceClient):
     print("With word2vec or GloVe embeddings this works almost perfectly.")
 
 def main():
-    client = InferenceClient(token=os.getenv("HUGGING_FACE_API"))
+    client = InferenceClient(token=os.getenv("HF_API_KEY"))
 
     # Run all three demos
     demo_similarity_intuition(client)

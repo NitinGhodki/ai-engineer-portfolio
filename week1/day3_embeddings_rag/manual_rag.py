@@ -129,7 +129,7 @@ class RAGPipeline:
     """
 
     def __init__(self):
-        self._llm = InferenceClient(token=os.getenv("HUGGING_FACE_API"))
+        self._llm = InferenceClient(token=os.getenv("HF_API_KEY"))
         self._model = os.getenv("Hugging_face_model")
         self._store = VectorStore()
         self._ingested_docs = []

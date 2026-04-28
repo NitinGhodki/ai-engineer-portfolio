@@ -34,7 +34,7 @@ class SupportTicket(BaseModel):
 
 class StructuredExtractor: 
     def __init__(self):
-        self._client = InferenceClient(token=os.getenv("HUGGING_FACE_API"))
+        self._client = InferenceClient(token=os.getenv("HF_API_KEY"))
         self._model = os.getenv("Hugging_face_model")
 
     def _build_extraction_prompt(self, schema: type[BaseModel], text: str) -> str:

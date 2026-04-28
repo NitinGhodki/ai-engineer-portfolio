@@ -133,7 +133,7 @@ def build_llm():
     """
     llm = HuggingFaceEndpoint(
         repo_id=os.getenv("Hugging_face_model"),
-        huggingfacehub_api_token=os.getenv("HUGGING_FACE_API"),
+        huggingfacehub_api_token=os.getenv("HF_API_KEY"),
         max_new_tokens=512,
         temperature=0.1,
     )
