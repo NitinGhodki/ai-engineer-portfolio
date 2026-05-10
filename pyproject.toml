@@ -7,6 +7,7 @@ requires-python = ">=3.10"
 dependencies = [
     "anthropic>=0.94.1",
     "chromadb>=1.5.8",
+    "datasets>=4.8.5",
     "fastapi>=0.136.1",
     "huggingface-hub>=1.10.2",
     "langchain>=1.2.15",
@@ -19,6 +20,7 @@ dependencies = [
     "ollama>=0.6.1",
     "openai>=2.31.0",
     "python-dotenv>=1.2.2",
+    "ragas>=0.4.3",
     "sentence-transformers>=5.4.1",
     "streamlit>=1.57.0",
     "tenacity>=9.1.4",

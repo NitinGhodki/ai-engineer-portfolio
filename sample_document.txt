@@ -1,0 +1,23 @@
+
+TechCorp AI Assistant — Product Documentation
+
+Pricing and Plans:
+Our Starter plan costs 999 rupees per month and includes 100 AI queries per day.
+The Professional plan costs 2999 rupees per month with unlimited queries and priority support.
+The Enterprise plan is custom priced with dedicated infrastructure and SLA guarantees.
+
+Refund Policy:
+All plans come with a 14-day free trial. No credit card required for trial.
+Refunds are available within 30 days of first payment for annual plans.
+Monthly plans can be cancelled anytime but are not eligible for partial refunds.
+
+Technical Specifications:
+Our API supports REST and WebSocket connections.
+Rate limits are 10 requests per second for Starter, 50 for Professional.
+Maximum document size for upload is 10MB. Supported formats are PDF and TXT.
+Response latency SLA is under 2 seconds for 95th percentile on Professional plan.
+
+Support:
+Starter plan support is via email with 48-hour response time.
+Professional plan includes live chat support with 4-hour response time.
+Enterprise customers get a dedicated support engineer and 1-hour response SLA.
