@@ -10,3 +10,5 @@ wheels/
 .venv
 .env
 chroma_db
+chroma_storage
+tiny_vectordb.json
