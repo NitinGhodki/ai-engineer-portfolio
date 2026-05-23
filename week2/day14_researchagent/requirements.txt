@@ -1,0 +1,14 @@
+langgraph
+langchain
+langchain-community
+langchain-huggingface
+sentence-transformers
+chromadb
+rank-bm25
+ragas
+datasets
+fastapi
+uvicorn
+streamlit
+python-dotenv
+requests
